@@ -31,12 +31,19 @@ var counter3 = freshPatty;
 
 var placePatty;
 
-let patties;
 
 function update() {
   if (!ticks) {
-    patties = [];
   }
+
+    //grill
+    color("light_black");
+    rect(6, 52, 48, 40);
+
+    color("black");
+    rect(5, 50, 50, 4);
+
+
   if (patty1 != false) {
     color("red");
     char("a", 10, 50);
@@ -61,7 +68,7 @@ function update() {
     }
     if (counter2 <= 0){
       color("black");
-      char("ba", 30, 50);
+      char("b", 30, 50);
       end();
     }
   }
