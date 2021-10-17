@@ -1,6 +1,10 @@
 title = "Fast Food";
 
-description = `Don't drop them
+description = `
+   Click the 
+  patties when 
+   they turn 
+     green
 `;
 
 characters = [
